@@ -1,0 +1,2 @@
+celery -A djangoProject worker --loglevel=info
+celery -A djangoProject flower
